@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АльТиТрейд - наружная реклама в Минске, Бресте, Витебске, Гомеле, Гродно, Могилеве. 
+        Изготовление вывесок, объемных букв, рекламное оформление магазина в короткие сроки.
+    </title>
+
+    <link rel="shortcut icon" href="Images/favicon.png" type="image/png">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style1.css">
+
+    <script src="js/photo.js"></script>
+
+
+</head>
+<body onload="changePic()">
+
+    <header>
+        <div class="header">
+             <div class="menu"><a href="#">Главная</a></div>
+             <div class="menu focus"><a href="#">Услуги</a>
+                <ul id="list_services">
+                    <li><a href="#">Рекламное оформление торговой точки</a></li>
+                    <li><a href="#">Световые короба</a></li>
+                    <li><a href="#">Объемные световые буквы</a></li>
+                    <li><a href="#">Широкоформатная печать</a></li>
+                    <li><a href="#">Крышные установки</a></li>
+                    <li><a href="#">Рекламные конструкции</a></li>
+                    <li><a href="#">Согласование вывесок</a></li>
+                    <li><a href="#">Сопутствующие услуги</a></li>
+                </ul>
+            </div>
+             <div class="menu"><a href="#">Технические требования</a></div>
+             <div class="menu"><a href="#">Портфолио</a></div>
+             <div class="menu"><a href="#">Стоимость</a></div>
+             <div class="menu"><a href="#">Контакты</a></div>
+        </div>
+
+        <div class="header_bottom">
+             <div class="logo"><img src="Images/image001.png" alt="АльТиТрейд - наружная реклама">
+                <div id="name">Альти Трейд
+                <div id="slogan">наружная реклама во всех регионах РБ</div>
+                </div>
+             </div>
+             <div class="contact">
+                 <div class="phone">
+                   <span class="material-icons">
+                    phone
+                   </span>
+                      +375 44 565 00 56 <br>
+                      <span class="material-icons">
+                        perm_phone_msg
+                        </span> +375 29 235 87 31
+                 </div> 
+                 <div class="email">
+                    <span class="material-icons">
+                        email
+                        </span>
+                        altitrade@mail.ru
+                 </div>
+             </div>
+             <div class="mode">
+                 <p>Понедельник - пятница<br>
+                 9:00 - 18:00</p>
+             </div>
+        </div>
+    </header>
+
+    <!-- changePic() - Фото услуг -->
+
+    <div id="main">
+        <div id="pict" onmouseover="stop()" onmouseout="timerID = setTimeout(changePic, 4000)">
+               <a id="lnk" href="#"><img id="im" src="Images/types_img/1.jpg" alt=""></a>
+               <div id="before" onclick="before()"><span class="material-icons"> navigate_before </span></div>
+               <div id="between"></div>
+               <div id="next" onclick="next()"><span class="material-icons"> navigate_next </span></div>
+        </div>
+    </div>
+
+  
+    <!-- <section> Наши услуги -->
+
+        <div class="services">
+            <div class="services_slogan">
+                <h3>С увлеченностью к любимому делу</h3>
+                <h1>Наши услуги</h1>
+                <p>Мы надежный и компетентный партнер для реализации ваших смелых идей. 
+                Познакомьтесь с нашим агентством и услугами. Вот для чего мы живем...</p>
+            </div>
+            <div class="services_types">
+                <div class="types"><a href="#">
+                    <img src="Images/types_img/1.jpg" alt="Рекламное оформление торговой точки">
+                    <h3>Рекламное оформление торговой точки</h3>
+                </a></div>
+                <div class="types"><a href="#">
+                    <img src="Images/types_img/2.jpg" alt="Световые короба">
+                    <h3>Световые короба</h3>
+                </a></div>
+                <div class="types"><a href="#">
+                    <img src="Images/types_img/3.jpg" alt="Объемные световые буквы">
+                    <h3>Объемные световые буквы</h3>
+                </a></div>
+                <div class="types"><a href="#">
+                    <img src="Images/types_img/4.jpg" alt="Широкоформатная печать">
+                    <h3>Широкоформатная печать</h3>
+                </a></div>
+                <div class="types"><a href="#">
+                    <img src="Images/types_img/5.jpg" alt="Крышные установки">
+                    <h3>Крышные установки</h3>
+                </a></div>
+                <div class="types"><a href="#">
+                    <img src="Images/types_img/6.jpg" alt="Рекламные конструкции">
+                    <h3>Рекламные конструкции</h3>
+                </a></div>
+                <div class="types"><a href="#">
+                    <img src="Images/types_img/7.jpg" alt="Согласование вывесок">
+                    <h3>Согласование вывесок</h3>
+                </a></div>
+                <div class="types"><a href="#">
+                    <img src="Images/types_img/8.jpg" alt="Сопутствующие услуги">
+                    <h3>Сопутствующие услуги</h3>
+                </a></div>
+            </div>
+        </div>
+
+
+    <!-- </section> -->
+
+  <!-- <section> Наши преимущества -->
+
+    <div class="choice">
+        <div class="background">
+            <h2>Мы работаем для крупных брендов и небольших стартапов. Для клиентов и агентств. Для Вас и для нас.</h2>
+             <h1>Работаем во всех регионах Республики Беларусь</h1>
+             <h3>Почему Вы захотите работать именно с нами</h3>
+
+          <div class="choice_box">
+            
+            <div class="choice_item first">
+                <img src="Images/icons/icon_choice1.png" alt="Бесценный опыт в рекламе">
+                <div class="choice_item_content">
+                <h3> Бесценный опыт</h3>
+                <p>Сотрудники нашей компании осваивают рынок производства рекламной продукции с 2010 года, 
+                    а это уже более 10 лет! И Вы наверняка видели наши работы на улицах многих городов по всей стране.</p>
+                </div>
+            </div>
+            <div class="choice_item second">
+                <img src="Images/icons/icon_choice1.png" alt="Эффективность">
+                <div class="choice_item_content">
+                <h3> Качественный сервис</h3>
+                <p>Штат квалифицированных сотрудников позволяет 
+                    нам выполнять заказы клиентов любой сложности в кратчайшие сроки.</p>
+                </div>
+            </div>
+            <div class="choice_item third">
+                <img src="Images/icons/icon_choice1.png" alt="Индивидуальный подход в рекламе">
+                <div class="choice_item_content">
+                <h3> Индивидуальный подход</h3>
+                <p>Индивидуальный подход к клиенту — это наша особая технология, в которой цены и сервис
+                    выстроены вокруг нашего клиента.</p>
+                </div>
+            </div>
+            <div class="choice_item fourth">
+                <img src="Images/icons/icon_choice1.png" alt="Гарантия в рекламе">
+                <div class="choice_item_content">
+                <h3> Гарантия</h3>
+                <p>Мы абсолютно уверены в высоком качестве наших услуг, поэтому клиенты могут рассчитывать 
+                    на 12 месяцев гарантийного обслуживания элементов наружной рекламы.</p>
+                </div>
+            </div>
+        </div>
+       </div>
+       <div class="indicators">
+        <div class="indicators_content">
+            <div class="indicators_item">
+                <h3>2000+</h3>
+                <p>выполненных проектов</p>
+            </div>
+            <div class="indicators_item">
+                <h3>100+</h3>
+                <p>довольных клиентов</p>
+            </div>
+            <div class="indicators_item">
+                <h3>113</h3>
+                <p>городов</p>
+            </div>
+            <div class="indicators_item">
+                <h3>11</h3>
+                <p>лет опыта</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+<!-- </section> -->
+
+<!-- <section>  Позвони -->
+    <div class="call">
+        <h3>Хотите лучшее рекламное оформление для продвижения Вашей компании?</h3>
+        <h1>Добавьте больше яркости своей рекламной кампании</h1>
+        <p>Мы можем предложить Вам лучшие рекламные решения, чтобы сделать вашу компанию заметной. <br>
+           Если вы не находите то, что ищете, свяжитесь с нами, поскольку у нас может быть альтернатива,
+             которой еще нет у ваших конкурентов.</p>
+        <div class="call_number">
+            <div class="number"><img src="Images/icons/free-icon-telephone-724664.png" alt="Альтитрейд телефон A1"> <br>
+            +375 44 565 00 56 </div>
+            <div class="number"><img src="Images/icons/free-icon-telephone-724664.png" alt="Альтитрейд телефон МТС">
+                <img src="Images/icons/premium-icon-viber-3670059.png" alt="Альтитрейд вайбер">
+                <img src="Images/icons/free-icon-telegram-2111646.png" alt="Альтитрейд телеграм">
+                <img src="Images/icons/free-icon-whatsapp-733585.png" alt="Альтитрейд вотсап"> <br>
+                 +375 29 235 87 31 </div>
+            <div class="number"><img src="Images/icons/email.png" alt="Электронная почта Альтитрейд"> <br>
+            altitrade@mail.ru
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- </section> -->
+<footer>
+
+    <div>Автор иконок: <a href="https://www.flaticon.com/ru/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> 
+        from <a href="https://www.flaticon.com/ru/" title="Flaticon">www.flaticon.com</a></div>
+</footer>
+
+
+    
+</body>
+</html>
