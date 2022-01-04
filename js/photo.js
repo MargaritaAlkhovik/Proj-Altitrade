@@ -45,3 +45,24 @@ function before() {
     lnk.href = links[n-1];
     find();
 }
+
+function button() {
+    let menu = document.getElementsByClassName('menu');
+    let s=""; let p="";
+    for (i=0; i<menu.length; i++) {
+    s = menu[i].innerHTML;
+    p += `${s}`;
+    // menu[i].style.display = "block";
+    menu_button.innerHTML = p;
+    }
+}
+
+// function out() {
+//     menu_button.addEventListener ("mouseout",function(button) {
+//         button.рreventDefault();
+//         // button.stopPropagation();
+//     }, false);
+// }
+// function out() {
+//     menu_button.innerHTML = `<div id="menu_button" onclick="return false">Меню</div>`;
+//     }
